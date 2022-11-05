@@ -142,6 +142,18 @@ width: 25%;
         flex-direction: column;
 
 }
+#nmush1{
+    width: 65%;
+    height: 65%;
+}
+#nmush2{
+    width: 65%;
+    width: 65%;
+}
+#nredo5{
+    width: 65%;
+    height: 65%;
+}
 #video1{
     height: 450px;
 width: 100%;
