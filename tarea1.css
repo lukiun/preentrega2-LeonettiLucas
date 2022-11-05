@@ -1,0 +1,213 @@
+.nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    background-color: rgb(38, 35, 35);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: -10px 5px 10px rgb(47, 49, 49);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border: 1px solid rgba(red,green,blue, alpha);
+    top: -8px;
+    transition: top ease 0.2s;
+    font-weight: bold;
+}
+.nav:hover{
+    top: -13px;
+}
+
+.matanga{
+    display: inline-block;
+    margin: 20px;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.h11{
+    color: rgb(187, 62, 62);
+}
+
+.white{
+    color: rgb(255, 255, 255);
+    text-shadow: -10px 5px 10px red;
+    text-decoration: none;
+
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+#video1{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+
+}
+#mush1{
+    height: 25%;
+width: 25%;
+}
+#mush2{
+    height: 25%;
+width: 25%;
+}
+#redo5{
+    height: 25%;
+width: 25%;
+}
+#tpn19{
+    height: 25%;
+width: 25%;
+}
+#drakengard1{
+width: 25%;
+}
+#one86{
+    height: 25%;
+width: 25%;
+}
+
+.xxx{
+    font-size: 1rem;
+    list-style: none;
+    text-align: center;
+    font-style: italic; 
+    width: 350px;
+    font-weight: bold;
+    background-position: center;
+    position: relative;
+    background-color: rgb(42, 27, 27);
+    box-shadow: -10px 5px 10px rgb(10, 15, 15);
+    margin: 0 auto; /*para poner en el medio un cuadro con texto y mas*/
+
+}
+
+.text{
+    color: aliceblue;
+
+}
+
+
+#pepe{
+    
+    background-color: rgba(20, 23, 23, 0.952);
+    height: 200px;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color_li{
+    color: rgb(234, 18, 18);
+    text-shadow: -10px 5px 10px red;
+}
+
+.uwu3{
+    height: 45px;
+    width: 70px;
+}
+
+.uwu6{
+    height: 45px;
+    width: 90px;
+}
+
+.uwu7{
+    height: 50px;
+    width: 100px;
+}
+
+
+@media (max-width: 600px){
+    .nav{
+
+        list-style: none;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+}
+#video1{
+    height: 450px;
+width: 100%;
+}
+#mush1{
+    height: 25%;
+width: 65%;
+}
+#mush2{
+    height: 25%;
+width: 65%;
+}
+#redo5{
+    height: 25%;
+width: 65%;
+}
+#tpn19{
+    height: 25%;
+width: 55%;
+}
+#drakengard1{
+width: 55%;
+}
+#one86{
+    height: 25%;
+width: 25%;
+}
+}
+
+@media (min-width: 601px){
+.nav{
+
+    list-style: none;
+    position: relative;
+    flex-direction: row;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    height: 140px;
+
+}
+.carousel{  
+    
+    width: 60%;
+    position: relative;
+
+}
+.carousel-inner, .carousel-inner > .item, .carousel-inner > .item > img {
+    height: 50%
+    width: 50%;
+  }
+
+#nmush1{
+    width: 35%;
+    height: 35%;
+}
+#nmush2{
+    width: 35%;
+    width: 35%;
+}
+#nredo5{
+    width: 35%;
+    height: 35%;
+}
+#video1{
+    width: 70%;
+    height: 600px;
+}
+}
